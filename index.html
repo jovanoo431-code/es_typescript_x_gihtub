@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Es_registro_dei_voti</title>
+        <script defer src="dist/main.js"></script>
+    </head>
+    <body>
+        <h1>Il Registro dei voti</h1>
+        <label for="insnome">Inserisci il nome:</label>
+        <input id="insnome">
+        <label for="insvoto"><br><br>Inserisci il voto :</label>
+        <input id="insvoto" type="number">
+        <button onclick="controllo()">Registra</button>
+        <p id="risposta"></p>
+        <img id="img" src="" alt="">
+        <h1>Elenco Alunni con voto:</h1>
+        <ul id="elenco">
+            <li id="lis"></li>
+        </ul>
+        <table id="riepilogo">
+            <tr>
+                <th>conta-insufficiente:</th>
+                <td id="ins"></td>
+            </tr>
+            <tr>
+                <th>conta-sufficiente:</th>
+                <td id="suf"></td>
+            </tr>
+            <tr>
+                <th>conta-buono:</th>
+                <td id="buo"></td>
+            </tr>
+            <tr>
+                <th>conta-ottimo:</th>
+                <td id="ott"></td>
+            </tr>
+        </table>
+    </body>
+</html>
